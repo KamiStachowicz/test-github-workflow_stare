@@ -1,8 +1,6 @@
 """
 This module contains a Flask application that displays a greeting message.
 """
-[MASTER]
-disable=C0114,W,E
 
 from flask import Flask
 
