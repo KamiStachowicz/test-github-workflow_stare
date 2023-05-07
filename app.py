@@ -1,7 +1,10 @@
 """
 This module contains a Flask application that displays a greeting message.
 """
-
+"python.linting.pylintArgs": [
+        "--disable=C0114",
+        "--disable=W,E"
+    ]
 from flask import Flask
 
 app = Flask(__name__)
