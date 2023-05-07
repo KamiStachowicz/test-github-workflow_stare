@@ -1,6 +1,11 @@
 """
 This module contains a Flask application that displays a greeting message.
 """
+import sys
+
+def print_python_version():
+    """Function printing python version."""
+    print(sys.version)
 
 from flask import Flask
 
